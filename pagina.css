@@ -9,7 +9,8 @@ body {
     
     grid-template-rows: 20vh 15vh 50vh 30vh;
     
-   /* grid-template-columns: 10vw 30vw 40vw 20vw */
+    
+   grid-template-columns: 25% 25% 25% 25%;
 
 }
 
@@ -54,11 +55,31 @@ nav a {
 section {
 
     grid-area: section;
-    background: green
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section img {
+    width: 300px;
+    height: 100%;
+    border-radius: 150px;
+
+
 }
  aside { grid-area: aside;
-    background: yellow
+    background: yellow;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 30px 30px;
 }
+
+aside p {
+    color: white;
+    font-display: 
+}
+
 footer {
     grid-area: footer;
     background: purple
