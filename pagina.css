@@ -77,10 +77,31 @@ section img {
 
 aside p {
     color: white;
-    font-display: 
+    
 }
 
 footer {
     grid-area: footer;
-    background: purple
+    background: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
+footer div{
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: red;
+
+}
+
+footer div img {
+    width: 30px;
+    height: 30px;
+
+}
+
