@@ -15,16 +15,42 @@ body {
 
 header {
     grid-area: header;
-    background: red
-   
+    background: black;
+    display: flex;
+    justify-content: center;
+}
 
+header div {
+    background-color: grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; /*o justify-content serve para alinhar o conteúdo na orizontal */
+    width: 60%;
+  
+    justify-content: space-around
+    
+}
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 12px;
 }
 
 nav {
     grid-area: nav;
-    background: blue
+    background: blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 
 }
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
 section {
 
     grid-area: section;
